@@ -83,13 +83,13 @@ def interact_model(
             for i in range(batch_size):
                 generated += 1
                 text = enc.decode(out[i])
-                print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
+                #print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
                 output_text += ' ' + text
-                print(text)
+                #print(text)
         # open('conditional_output.txt', 'w').close()
         # with open("conditional_output.txt", "w") as text_file:
         #     text_file.write(output_text)
-        print("=" * 80)
+        #print("=" * 80)
         return(output_text)
 
 #if __name__ == '__main__':
