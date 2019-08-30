@@ -92,5 +92,5 @@ def interact_model(
         print("=" * 80)
         return(output_text)
 
-if __name__ == '__main__':
-    fire.Fire(interact_model)
+#if __name__ == '__main__':
+#    fire.Fire(interact_model)
